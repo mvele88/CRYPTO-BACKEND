@@ -1,0 +1,13 @@
+       
+{
+  "name": "crypto-backend-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'No build step, static files only'",
+    "start": "serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.1.2"
+  }
+}
+
