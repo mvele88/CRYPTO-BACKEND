@@ -1,0 +1,17 @@
+{
+  "name": "mm-sniper-bot-backend",
+  "version": "1.0.0",
+  "description": "Backend API for M&M Sniper Bot Command Panel",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "micro": "^10.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "author": "Brother",
+  "license": "MIT"
+}
