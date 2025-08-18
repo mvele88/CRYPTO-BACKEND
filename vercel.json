@@ -1,22 +1,8 @@
-// index.js
-
-const express = require('express');
-const app = express();
-
-// Your API routes and logic go here
-app.get('/api', (req, res) => {
-  res.send('Hello from the Vercel API!');
-});
-
-// Any other routes or middleware...
-// app.use(...)
-// app.post(...)
-
-// This is the crucial line for Vercel to work.
-// It exports the Express app as a serverless function.
-module.exports = app;
-
-// IMPORTANT: Do NOT include app.listen() for Vercel deployment.
-// app.listen(3000, () => {
-//   console.log('Server is running on http://localhost:3000');
-// });
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api"
+    }
+  ]
+}
