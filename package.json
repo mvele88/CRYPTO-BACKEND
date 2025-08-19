@@ -1,0 +1,14 @@
+{
+  "name": "crypto-backend",
+  "version": "1.0.0",
+  "description": "BTC + Solana wallet backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.11.0",
+    "@solana/web3.js": "^2.22.0"
+  }
+}
